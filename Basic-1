@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>//acesssing input,ouput,vector,arr,map(dictionary)
+using namespace std;//to avodind the same nameing collation of cout,cin,endl etc...
+                    //above two lines  are header files
+int main() { //excustion starts first here
+	int arr[20]={10,20,40,490};
+	for (auto i:arr){
+	    cout<<i<<" ";}//output=10 20 40 490 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+
+//vector funtions
+vector<int>ds;
+ds.push_back(10);
+ds.emplace_back(20);
+for(auto i:ds){
+cout<<i<<" "<<"\n";//seprate with space and printing new line  by using "\n"
+                  //10 20
+}
+}
