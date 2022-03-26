@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() { //pair decleration
+	pair<int,char>p={8,'k'};
+	cout<<p.first<<" "<<p.second<<endl;
+	
+	
+	//pair to pair
+	pair<int,pair<int,int>>p1={1,{2,3}};
+	cout<<p1.first<<" "<<p1.second.first<<endl;
+	//par with std::array
+	pair<int,int>arr[]={{1,2},{3,4}};
+	cout<<arr[1].first<<ends;//ouput 3
+	
+}
